@@ -18,7 +18,12 @@ Project is created with:
 ## Setup
 To run this project, install it locally using npm:
 
-$ cd ../E-SCORE
-$ npm install
+
+```
+$ cd ../E-SCORE\
+
+$ npm install\
+
 $ npm start
+```
 
