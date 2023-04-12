@@ -76,7 +76,7 @@ E-SCORE is a web-based tool that enhances the security requirements engineering 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![ReactFlow][ReactFlow.js]][ReactFlow-url]
-* [![WebVOWL]][WebVOWL-url]
+* [![WebVOWL][WebVOWL.js]][WebVOWL-url]
 
 
 
@@ -172,6 +172,7 @@ Project Link: [https://github.com//hibahnaini/E-SCORE/](https://github.com//hiba
 [React-url]: https://reactjs.org/
 [ReactFlow.js]:https://img.shields.io/badge/ReactFlow-20232A?style=for-the-badge&logo=ReactFlow&logoColor=61DAFB
 [ReactFlow-url]:https://reactflow.dev/
+[WebVOWL.js]:https://img.shields.io/badge/ReactFlow-20232A?style=for-the-badge&logo=WebVOWL&logoColor=61DAFB
 [WebVOWL-url]:http://vowl.visualdataweb.org/webvowl.html
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
