@@ -1,0 +1,2524 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology" ],
+    "prefixList" : {
+      "swrl" : "http://www.w3.org/2003/11/swrl#",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "g" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology/",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "swrla" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "swrlb" : "http://www.w3.org/2003/11/swrlb#",
+      "security-criteria-ontology" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#",
+      "" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SecurityMechanism",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityMechanism"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SAGE",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SAGE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dynamic_Secure_Data_Scheme_P2DS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dynamic_Secure_Data_Scheme_P2DS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Partial_encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Partial_encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PIN",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PIN"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Network_Function_Virtualization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Network_Function_Virtualization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Process_isolation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Process_isolation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SMT_Secure_Message_Transmission",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SMT_Secure_Message_Transmission"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#DDoS_Redundancy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "DDoS_Redundancy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Distrustful_Decomposition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Distrustful_Decomposition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Policy-Based_Trust",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Policy-Based_Trust"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#End-point_Detection_and_Response_EDR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "End-point_Detection_and_Response_EDR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Channel_characteristics",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Channel_characteristics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Firewalls",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Firewalls"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Pattern",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Pattern"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Check_Point",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Check_Point"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Elliptic_curve_cryptosystem",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Elliptic_curve_cryptosystem"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Self-certified_public_keys",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Self-certified_public_keys"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Password_Authentication_Protocol_—_PAP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Password_Authentication_Protocol_—_PAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Process_Creator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Process_Creator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Physical_Entry_Control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Physical_Entry_Control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Chain_Of_Responsibility",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Chain_Of_Responsibility"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SEAD_Secure_and_Efficient_Ad-hoc_Distance_Vector",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SEAD_Secure_and_Efficient_Ad-hoc_Distance_Vector"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reducing_Attack_Surface",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reducing_Attack_Surface"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Linguistic_profiling",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Linguistic_profiling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Hardware_Security_Module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Hardware_Security_Module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Business_continuity_management_BCM",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Business_continuity_management_BCM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Hardware/Software_Address_Protection_HSAP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Hardware/Software_Address_Protection_HSAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ARQ-Automatic_Repeat__Request",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ARQ-Automatic_Repeat__Request"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#FTP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "FTP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ES-CCM_Advanced_Encryption_Standard-Counter_with_CBC-MAC",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ES-CCM_Advanced_Encryption_Standard-Counter_with_CBC-MAC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anonymous_Communication_System_ACS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anonymous_Communication_System_ACS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Replicated_System",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Replicated_System"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_key_management",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_key_management"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HMAC_Hash-based_Message_Authentication_Code",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HMAC_Hash-based_Message_Authentication_Code"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Integration_Reverse_Proxy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Integration_Reverse_Proxy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_code",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_code"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Attribute/identity_based_encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Attribute/identity_based_encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#User_data_isolation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "User_data_isolation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Patching_vulnerabilities",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Patching_vulnerabilities"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HMM_biosensor_scheduling",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HMM_biosensor_scheduling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Transport_Layer_Protocol",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Transport_Layer_Protocol"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SFTP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SFTP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Strategy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Strategy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Execution_Environment",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Execution_Environment"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Certificate_pinning",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Certificate_pinning"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Certification_Authority",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Certification_Authority"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PrivWatcher",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PrivWatcher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Isolating_compromised_nodes",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Isolating_compromised_nodes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Iris_Recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Iris_Recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Chaotic_hash",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Chaotic_hash"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Ear_shape",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Ear_shape"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Data_Space_Randomization_DSR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Data_Space_Randomization_DSR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Signature_recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Signature_recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Electronic_Signatures",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Electronic_Signatures"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Supervision_Relation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Supervision_Relation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Networked-control_systems_NCSs",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Networked-control_systems_NCSs"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Full_View_with_Errors",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Full_View_with_Errors"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Protection_Reverse_Proxy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Protection_Reverse_Proxy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#User-based_permissions",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "User-based_permissions"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#One_Time_Password_OTP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "One_Time_Password_OTP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multi-Factor_Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multi-Factor_Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure__Pipe",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure__Pipe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Regular_software_updates",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Regular_software_updates"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Teeth_image",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Teeth_image"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#FEC-Forward_Error__Correction",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "FEC-Forward_Error__Correction"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Limited__View",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Limited__View"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Logger",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Logger"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Periodic_auditing",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Periodic_auditing"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Datagram_TLS_DTLS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Datagram_TLS_DTLS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Object_Factory",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Object_Factory"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Order_preserving_encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Order_preserving_encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Memory_safety",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Memory_safety"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Network_IDS_NIDS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Network_IDS_NIDS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Rhythm",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Rhythm"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Rigorous_data_backups",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Rigorous_data_backups"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dynamic_Signatures",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dynamic_Signatures"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Proper_isolation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Proper_isolation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Write-Integrity_Testing_WIT",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Write-Integrity_Testing_WIT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#YARRA",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "YARRA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Behaviour_profiling",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Behaviour_profiling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Intrusion_Detection_System_IDS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Intrusion_Detection_System_IDS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Initial_random_seed_number",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Initial_random_seed_number"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ThreeD_Secure",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ThreeD_Secure"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HIP_Diet_Exchange_DEX",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HIP_Diet_Exchange_DEX"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Sign-What-You-See",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Sign-What-You-See"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#TFTP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "TFTP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Challenge-response",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Challenge-response"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Ethernet/IP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Ethernet/IP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Context-Aware_Access_Control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Context-Aware_Access_Control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Face_recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Face_recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Identity-based_elliptic_curve_algorithm",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Identity-based_elliptic_curve_algorithm"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SECA_Security_Engineering_Cluster_Analysis",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SECA_Security_Engineering_Cluster_Analysis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#RobSAD_Robust_Sybil_Attack_Detection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "RobSAD_Robust_Sybil_Attack_Detection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Touch_dynamics",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Touch_dynamics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multilevel_Security",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multilevel_Security"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Gaze_gestures",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Gaze_gestures"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HTTPS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HTTPS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Content-Based__Image__Retrieval_CBIR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Content-Based__Image__Retrieval_CBIR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Signature_Based__Intrusion_Detection__And_Prevention",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Signature_Based__Intrusion_Detection__And_Prevention"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Known_Partners",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Known_Partners"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HDFI",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HDFI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SeCoMan",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SeCoMan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#TLS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "TLS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Storage__Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Storage__Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Schnorrs_signature_scheme",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Schnorrs_signature_scheme"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PASSWORD_DESIGN_AND_USE",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PASSWORD_DESIGN_AND_USE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Chip_Authentication_Programme_CAP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Chip_Authentication_Programme_CAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#VPN",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "VPN"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Virtualization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Virtualization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#System_restore_points",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "System_restore_points"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Identity_and_access_management_IAM",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Identity_and_access_management_IAM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Data_Masking",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Data_Masking"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Abstract_Authenticator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Abstract_Authenticator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Probabilistic_polynomial_time_algorithms",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Probabilistic_polynomial_time_algorithms"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Input_Guard",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Input_Guard"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Separation_of_Duty",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Separation_of_Duty"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Network_monitoring",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Network_monitoring"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Policy_enforcement",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Policy_enforcement"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PROFINET",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PROFINET"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PT-Rand",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PT-Rand"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LOP_Location_Obscurer_Proxy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LOP_Location_Obscurer_Proxy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Bilinear_pairings",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Bilinear_pairings"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Third_Party_Validation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Third_Party_Validation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Chip_and_PIN",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Chip_and_PIN"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Role-Based_Access_Control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Role-Based_Access_Control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Limiting_number_of_connections",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Limiting_number_of_connections"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Load__Balancer",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Load__Balancer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Location-Privacy_Protection_Mechanisms_LPPM",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Location-Privacy_Protection_Mechanisms_LPPM"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#NMD_Non-Disclosure_Method",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "NMD_Non-Disclosure_Method"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Obfuscation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Obfuscation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Tamper_Resistance-based_module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Tamper_Resistance-based_module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Channels",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Channels"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Symmetric_Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Symmetric_Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SCMS_Security_certificate_management_System",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SCMS_Security_certificate_management_System"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anonymous_Access_Credential_AAC",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anonymous_Access_Credential_AAC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Domain_Separation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Domain_Separation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#system-on-chip_design_and_non-detachable_connections",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "system-on-chip_design_and_non-detachable_connections"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Blackboard",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Blackboard"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Attribute-based__access__control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Attribute-based__access__control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Modbus",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Modbus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Alternative_Service",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Alternative_Service"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anti-Virus",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anti-Virus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Diffie–Hellman_key_exchange",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Diffie–Hellman_key_exchange"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#A_unique_international_mobile_equipment_identification_number",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "A_unique_international_mobile_equipment_identification_number"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HardScope",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HardScope"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Client_Checking",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Client_Checking"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Configuration_Hardening",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Configuration_Hardening"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SET",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SET"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Financial__Accounting__Fraud_Detection_FAFD",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Financial__Accounting__Fraud_Detection_FAFD"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Server_Sandbox",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Server_Sandbox"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dynamic_Authorization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dynamic_Authorization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Certificateless_signature",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Certificateless_signature"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Single_Access_Point",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Single_Access_Point"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Tag_number",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Tag_number"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Policy_Evaluation_Point_PEP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Policy_Evaluation_Point_PEP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Challenge-Handshake_Authentication_Protocol_—_CHAP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Challenge-Handshake_Authentication_Protocol_—_CHAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Input_Validator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Input_Validator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Supporting_Utility",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Supporting_Utility"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Password",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Password"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Endpoint_Device_Protection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Endpoint_Device_Protection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Policy-based_access_control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Policy-based_access_control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ECIES_Elliptic_Curve_Integrated_Encryption_Scheme",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ECIES_Elliptic_Curve_Integrated_Encryption_Scheme"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Palm_Vein_Technology",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Palm_Vein_Technology"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Hardware-Assisted_Dataflow_Isolation_HDFI",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Hardware-Assisted_Dataflow_Isolation_HDFI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Access_Layer",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Access_Layer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Authentication_watermarks",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Authentication_watermarks"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Hash_function",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Hash_function"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anti-malware_programs",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anti-malware_programs"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Elliptic_Curve_Cryptography_ECC",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Elliptic_Curve_Cryptography_ECC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#provable_data_possession_PDP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "provable_data_possession_PDP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Homomorphic_encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Homomorphic_encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Remote_attestation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Remote_attestation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Arm_gesture",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Arm_gesture"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Software_Fault_Isolation_SFI",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Software_Fault_Isolation_SFI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reputation-Based_Trust",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reputation-Based_Trust"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Pointer-based_Bounds_Checking",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Pointer-based_Bounds_Checking"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Remote_Work_Environment",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Remote_Work_Environment"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Gait_recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Gait_recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Data_classification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Data_classification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Demilitarized_Zone",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Demilitarized_Zone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Graphical_password",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Graphical_password"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Task-level_access_control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Task-level_access_control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SSL",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SSL"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Private_network",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Private_network"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Cabling_security",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Cabling_security"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Minimal__IKEv2",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Minimal__IKEv2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#VeCure",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "VeCure"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SecondDEP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SecondDEP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dataflow_Integrity_DFI",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dataflow_Integrity_DFI"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#CREDENTIAL-BASED_AUTHENTICATOR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "CREDENTIAL-BASED_AUTHENTICATOR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Voice_recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Voice_recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Equipment_siting_and_protection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Equipment_siting_and_protection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Blacklist_pattern",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Blacklist_pattern"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#DNP3",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "DNP3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anomaly_based_intrusion_detection_and_prevention",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anomaly_based_intrusion_detection_and_prevention"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Channel_Dependent_Signature_CDS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Channel_Dependent_Signature_CDS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Information_security_ISec_management",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Information_security_ISec_management"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Proof_of_Retrievability_PoR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Proof_of_Retrievability_PoR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Encryption_with_pairwise_master_key",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Encryption_with_pairwise_master_key"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Element_SE",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Element_SE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Classification_algorithms",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Classification_algorithms"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Wireless_security_protocols",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Wireless_security_protocols"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Fingerprints",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Fingerprints"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Message_authentication_code",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Message_authentication_code"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Segmentation_of_the_network",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Segmentation_of_the_network"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Asymmetric_Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Asymmetric_Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Front_Door",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Front_Door"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Cipher-based_Message_Authentication_Code_CMAC",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Cipher-based_Message_Authentication_Code_CMAC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multi-touch_interfaces",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multi-touch_interfaces"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Keystroke_analysis",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Keystroke_analysis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#eXtensible_Event_Stream_XES",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "eXtensible_Event_Stream_XES"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Module-specific_Firewall",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Module-specific_Firewall"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Intrusion_Prevention_System_IPS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Intrusion_Prevention_System_IPS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Trusted_Platform_Module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Trusted_Platform_Module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Semantic-based_access_control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Semantic-based_access_control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Static_MAC_address",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Static_MAC_address"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Double_Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Double_Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_routing",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_routing"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Security_Session",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Security_Session"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Host__intrusion_detection_systems_HIDS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Host__intrusion_detection_systems_HIDS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Capacitive_touchscreen",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Capacitive_touchscreen"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Intelligent_Role-Based_Access_Control_I-RBAC",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Intelligent_Role-Based_Access_Control_I-RBAC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Electrocardiogram",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Electrocardiogram"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Pointer_Authentication_PA",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Pointer_Authentication_PA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Continuous_Data_Space_Re-Randomization_CoDaRR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Continuous_Data_Space_Re-Randomization_CoDaRR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LESPP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LESPP"
+      }
+    } ],
+    "id" : "2",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ApplicationDomain",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ApplicationDomain"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Transportation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Transportation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#IndustrialControlSystems",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "IndustrialControlSystems"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Military",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Military"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multi-Domain",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multi-Domain"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#HealthCare",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "HealthCare"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#IoT",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "IoT"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Cloud-Provider",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Cloud-Provider"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SmartPhones",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "SmartPhones"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Communication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Communication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Banking",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Banking"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#EmergencyServices",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "EmergencyServices"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#WebServices",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "WebServices"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PublicAdministration",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PublicAdministration"
+      }
+    } ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SecurityCriterion",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityCriterion"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PhysicalSecurity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PhysicalSecurity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LocationPrivacy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LocationPrivacy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Flexibility",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Flexibility"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Auditing",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Auditing"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Revocability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Revocability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#AccessControl",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "AccessControl"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Identification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Identification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Maintainability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Maintainability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Traceability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Traceability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Authorization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Authorization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#DataVerification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "DataVerification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#NonRepudiation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "NonRepudiation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LiabilityIdentification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LiabilityIdentification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Privacy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Privacy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ErrorDetection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ErrorDetection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Freshness",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Freshness"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#BusinessContinuity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "BusinessContinuity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#FaultTolerance",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "FaultTolerance"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Availability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Availability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Logging",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Logging"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Trust",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Trust"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Integrity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Integrity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reputation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reputation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anonymity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anonymity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Confidentiality",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Confidentiality"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ResilienceToAttacks",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ResilienceToAttacks"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reliability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reliability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Immunity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Immunity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Accountability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Accountability"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#SecurityAspect",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityAspect"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PhysicalSecurity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PhysicalSecurity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LocationPrivacy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LocationPrivacy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Revocability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Revocability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#AccessControl",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "AccessControl"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dynamic_Secure_Data_Scheme_P2DS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dynamic_Secure_Data_Scheme_P2DS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Electronic_Signatures",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Electronic_Signatures"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Remote_Work_Environment",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Remote_Work_Environment"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Demilitarized_Zone",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Demilitarized_Zone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Protection_Reverse_Proxy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Protection_Reverse_Proxy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Chip_and_PIN",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Chip_and_PIN"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Third_Party_Validation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Third_Party_Validation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#One_Time_Password_OTP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "One_Time_Password_OTP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LiabilityIdentification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LiabilityIdentification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multi-Factor_Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multi-Factor_Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Privacy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Privacy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ErrorDetection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ErrorDetection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Freshness",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Freshness"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#FaultTolerance",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "FaultTolerance"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Tamper_Resistance-based_module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Tamper_Resistance-based_module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#DDoS_Redundancy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "DDoS_Redundancy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Distrustful_Decomposition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Distrustful_Decomposition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Logger",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Logger"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Object_Factory",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Object_Factory"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Trust",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Trust"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Channels",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Channels"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#VeCure",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "VeCure"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Symmetric_Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Symmetric_Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Firewalls",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Firewalls"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Integrity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Integrity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Check_Point",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Check_Point"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#CREDENTIAL-BASED_AUTHENTICATOR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "CREDENTIAL-BASED_AUTHENTICATOR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Dynamic_Signatures",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Dynamic_Signatures"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Blacklist_pattern",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Blacklist_pattern"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Confidentiality",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Confidentiality"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Process_Creator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Process_Creator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Domain_Separation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Domain_Separation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#system-on-chip_design_and_non-detachable_connections",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "system-on-chip_design_and_non-detachable_connections"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Blackboard",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Blackboard"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ResilienceToAttacks",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ResilienceToAttacks"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Attribute-based__access__control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Attribute-based__access__control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Chain_Of_Responsibility",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Chain_Of_Responsibility"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anomaly_based_intrusion_detection_and_prevention",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anomaly_based_intrusion_detection_and_prevention"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reliability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reliability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reducing_Attack_Surface",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reducing_Attack_Surface"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anti-Virus",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anti-Virus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ThreeD_Secure",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "ThreeD_Secure"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Hardware_Security_Module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Hardware_Security_Module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Element_SE",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Element_SE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Configuration_Hardening",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Configuration_Hardening"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Financial__Accounting__Fraud_Detection_FAFD",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Financial__Accounting__Fraud_Detection_FAFD"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Flexibility",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Flexibility"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Auditing",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Auditing"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anonymous_Communication_System_ACS",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anonymous_Communication_System_ACS"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Identification",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Identification"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Sign-What-You-See",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Sign-What-You-See"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Maintainability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Maintainability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Single_Access_Point",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Single_Access_Point"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Fingerprints",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Fingerprints"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Challenge-response",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Challenge-response"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Integration_Reverse_Proxy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Integration_Reverse_Proxy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Authorization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Authorization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Traceability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Traceability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Input_Validator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Input_Validator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#NonRepudiation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "NonRepudiation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Asymmetric_Encryption",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Asymmetric_Encryption"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Policy-based_access_control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Policy-based_access_control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Endpoint_Device_Protection",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Endpoint_Device_Protection"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Front_Door",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Front_Door"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#BusinessContinuity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "BusinessContinuity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Palm_Vein_Technology",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Palm_Vein_Technology"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Multilevel_Security",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Multilevel_Security"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Access_Layer",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Access_Layer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Logging",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Logging"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Availability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Availability"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Content-Based__Image__Retrieval_CBIR",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Content-Based__Image__Retrieval_CBIR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Signature_Based__Intrusion_Detection__And_Prevention",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Signature_Based__Intrusion_Detection__And_Prevention"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Module-specific_Firewall",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Module-specific_Firewall"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Known_Partners",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Known_Partners"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Transport_Layer_Protocol",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Transport_Layer_Protocol"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Reputation",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Reputation"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Secure_Strategy",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Secure_Strategy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Trusted_Platform_Module",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Trusted_Platform_Module"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Anonymity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Anonymity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Semantic-based_access_control",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Semantic-based_access_control"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Controlled_Execution_Environment",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Controlled_Execution_Environment"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Double_Authentication",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Double_Authentication"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#PASSWORD_DESIGN_AND_USE",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "PASSWORD_DESIGN_AND_USE"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Chip_Authentication_Programme_CAP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Chip_Authentication_Programme_CAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Security_Session",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Security_Session"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Virtualization",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Virtualization"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Iris_Recognition",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Iris_Recognition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Immunity",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Immunity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Abstract_Authenticator",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Abstract_Authenticator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#LESPP",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "LESPP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#Accountability",
+      "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+      "labels" : {
+        "IRI-based" : "Accountability"
+      }
+    } ],
+    "subClasses" : [ "2", "1" ],
+    "id" : "4"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#isEnforcedBy",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isEnforcedBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#isAppliedBy",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "isAppliedBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#conserves",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "conserves"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "range" : "7",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#testsFor",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "testsFor"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "range" : "4",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#provides",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#hasSecurityMechanism",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasSecurityMechanism"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "range" : "7",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#contributesTo",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "contributesTo"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#method",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "method"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#ensures",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "ensures"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#belongsTo",
+    "inverse" : "15",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "belongsTo"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#revokes",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "revokes"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#precedes",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "precedes"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#enforces",
+    "inverse" : "0",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "enforces"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology#appliedTo",
+    "baseIri" : "http://www.semanticweb.org/user/ontologies/2021/7/security-criteria-ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "appliedTo"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  } ]
+}
