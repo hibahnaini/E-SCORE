@@ -20,9 +20,9 @@ To run this project, install it locally using npm:
 
 
 ```
-$ cd ../E-SCORE\
+$ cd ../E-SCORE
 
-$ npm install\
+$ npm install
 
 $ npm start
 ```
