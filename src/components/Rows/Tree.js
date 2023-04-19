@@ -9,7 +9,9 @@ import ReactFlow, {
 } from 'react-flow-renderer';
 import { MarkerType } from 'react-flow-renderer';
 import axios from 'axios';
-const ip = "http://192.168.4.42:8585/";
+import Constants from '../../config';
+const ip=Constants.ip;
+
 
 
 export const resetTree = ()=>{

@@ -8,9 +8,12 @@ import ReactFlow, {
 } from 'react-flow-renderer';
 import { MarkerType } from 'react-flow-renderer';
 import axios from 'axios';
+import Constants from '../../config';
+const ip=Constants.ip;
 let [root,rel,ensures,precedes,isAppliedBy,provides,testsFor,conserves,contributesTo,revokes,allCriteria]=[[],[],[],[],[],[],[],[],[],[],[]];
 let [criterion,domain] = ["",""];
-const ip = "http://193.52.45.42:8585/";
+
+
 /*
 
 Generates the generic tree (no specific domain)

@@ -11,7 +11,8 @@ import { AdditionalCriteriaOptions } from '../components/Rows/AdditionalCriteria
 import { AdditionalCriteria } from '../components/Rows/AdditionalCriteria';
 import OverviewFlow, { beforeInit, resetTree } from '../components/Rows/Tree';
 import { AllCriteria } from '../components/Rows/AllCriteria';
-const ip = "http://193.52.45.42:8585/";
+import Constants from '../config';
+const ip=Constants.ip;
 
 /*
 

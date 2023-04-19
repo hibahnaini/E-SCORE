@@ -8,7 +8,9 @@ import { Criterion } from './Criterion';
 import { Mechanisms } from './Mechanisms';
 import { AdditionalCriteria } from './AdditionalCriteria';
 import { GenericOverviewFlow,resetTree,beforeInit} from './GenericTree';
-const ip = "http://193.52.45.42:8585/";
+import Constants from '../../config';
+const ip=Constants.ip;
+
 
 const AllCriteria = (props) => { 
 
