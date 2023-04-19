@@ -105,7 +105,8 @@ $ npm install
 
 $ npm start
 ```
-
+The web interface connects directly to a back-end we deployed. 
+To use it with your own deployment of the back-end, add the url of your api deployment and the jwt token in proxy.js and deploy it (proxy.js). Then you need to change the ip variable in config.js to the ip of your deployed proxy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
